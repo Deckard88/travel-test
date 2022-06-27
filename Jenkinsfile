@@ -30,7 +30,7 @@ pipeline {
                 script {
                     mail body: "${RESULT}",
                     subject: "Jenkins Pipeline Job Result",
-                    to: "name@domain.com"
+                    to: "dm.bus@yandex.ru"
                 }
               }
         }
